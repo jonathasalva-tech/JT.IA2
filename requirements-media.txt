@@ -1,0 +1,7 @@
+# Optional spreadsheet analysis, audio processing and Edge TTS.
+# Install with: python -m pip install -r requirements-media.txt
+# Most pydub formats also require FFmpeg and FFprobe on PATH.
+pandas>=2.2,<4
+pydub>=0.25,<1
+edge-tts>=7,<8
+miniaudio>=1.61,<2

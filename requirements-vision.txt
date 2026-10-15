@@ -1,0 +1,8 @@
+# Optional Windows OCR bindings. Uses installed Windows language packs offline.
+# No Tesseract executable, model download or cloud service is required.
+winrt-Windows.Foundation>=3.2,<4; sys_platform == "win32"
+winrt-Windows.Foundation.Collections>=3.2,<4; sys_platform == "win32"
+winrt-Windows.Media.Ocr>=3.2,<4; sys_platform == "win32"
+winrt-Windows.Graphics.Imaging>=3.2,<4; sys_platform == "win32"
+winrt-Windows.Storage.Streams>=3.2,<4; sys_platform == "win32"
+winrt-Windows.Globalization>=3.2,<4; sys_platform == "win32"
